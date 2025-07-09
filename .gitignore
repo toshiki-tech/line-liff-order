@@ -1,0 +1,28 @@
+# Node.js dependencies
+/node_modules/
+
+# 输出构建目录
+/dist/
+
+# 本地环境配置文件
+/.env.local
+/.env.*.local
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE 编辑器配置
+.vscode/
+.idea/
+
+# macOS系统文件
+.DS_Store
+
+# npm 包锁文件（一般建议提交，除非多人协作且使用 yarn）
+package-lock.json
+
+# 其它临时文件
+*.log
+
